@@ -1,54 +1,46 @@
-<<<<<<< HEAD
-# React + TypeScript + Vite
+# Cardápio Digital - Aplicação Frontend
+Este projeto é um simples simples protótipo de um Cardápio Digital . A aplicação foi desenvolvida usando **React, Typescript e React Query**.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  ![image](https://github.com/user-attachments/assets/6c0380ff-39ee-4a83-988f-27520fd3a980)
+  ![image](https://github.com/user-attachments/assets/fa6d91df-c712-4d59-872b-7d624bad845c)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 💻 Requisitos
 
-## Expanding the ESLint configuration
+Antes de iniciar, você deve ter o Node.js e o NPM instalados em sua máquina.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🚀 Instalando
 
-- Configure the top-level `parserOptions` property like this:
+Primeiro, você deve clonar o projeto na sua máquina, para isso você
+pode colar o seguinte comando em seu terminal
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+```bash
+git clone https://github.com/Fernanda-Kipper/frontend-cardapio.git
+cd frontend-cardapio
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Para instalar as dependências, execute o seguinte comando:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+```bash
+npm install
 ```
-=======
-# cardapio_front-end
->>>>>>> 8f3268f7f2e15da044e0064ca21302d1d70abcb4
+
+Por fim, para executar o projeto basta rodar o seguinte:
+
+```bash
+npm run dev
+```
+
+## 🔧 Compilação
+
+Para compilar a aplicação para produção, execute o seguinte comando:
+
+```bash
+npm run build
+```
+Isso irá gerar uma versão otimizada da aplicação na pasta `dist`.
+
+## 🫂 Integração com Backend
+https://github.com/andressarodrigues2172dev/cardapio_back-end.git
+
+Para realizar a integração com o Backend, você pode clonar o projeto e rodar localmente
