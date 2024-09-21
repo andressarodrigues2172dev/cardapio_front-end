@@ -15,7 +15,7 @@ Primeiro, você deve clonar o projeto na sua máquina, para isso você
 pode colar o seguinte comando em seu terminal
 
 ```bash
-git clone https://github.com/Fernanda-Kipper/frontend-cardapio.git
+https://github.com/andressarodrigues2172dev/cardapio_front-end.git
 cd frontend-cardapio
 ```
 
