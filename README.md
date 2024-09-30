@@ -1,4 +1,4 @@
-# Cardápio Digital - Aplicação Frontend
+# Cardápio Digital - Aplicação Front-end
 Este projeto é um simples simples protótipo de um Cardápio Digital . A aplicação foi desenvolvida usando **React, Typescript e React Query**.
 
   ![image](https://github.com/user-attachments/assets/6c0380ff-39ee-4a83-988f-27520fd3a980)
